@@ -49,8 +49,8 @@ const MealDetails = () => {
             <SubTitle>{meal?.date} ás {meal?.time}</SubTitle>
             <Chip diet={meal?.diet as boolean} title={meal?.diet? 'dentro da dienta': 'fora da dieta'} />
             <Footer>
-              <Button icon='EDIT'  onPress={()=> navigation.navigate('Meal',{mode: 'edit',id: id})} title='Edit Meal' />
-              <Button color='SECONDARY' onPress={()=> setModalVisible(true)} icon='DELETE' title='Delete Meal' />
+              <Button icon='EDIT'  onPress={()=> navigation.navigate('Meal',{mode: 'edit',id: id})} title='Editar refeição' />
+              <Button color='SECONDARY' onPress={()=> setModalVisible(true)} icon='DELETE' title='Excluir refeição' />
           </Footer>
         </Body>
         <Modal
