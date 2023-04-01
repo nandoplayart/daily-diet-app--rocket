@@ -15,7 +15,7 @@ export interface IMealRepository{
 }
 
 export class MealRepository implements IMealRepository {
-    private _key:string = '@daily-diet:mealsx1';
+    private _key:string = '@daily-diet:meal:beta';
     private readonly _storage:IStorage ;
 
     constructor(){

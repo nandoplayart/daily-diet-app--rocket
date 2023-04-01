@@ -27,7 +27,7 @@ const DayList = ({data, items}: DayListProps) => {
         <Title>{DateHelper.getFormateDateDisplayList(data)}</Title>     
         </HeaderContainer>
         <BodyContainer>           
-            {items.map(item => <ItemContainer>{renderItem(item)}</ItemContainer> )}
+            {items.map(item => <ItemContainer key={item.id}>{renderItem(item)}</ItemContainer> )}
         </BodyContainer>  
     </Container>
   )
