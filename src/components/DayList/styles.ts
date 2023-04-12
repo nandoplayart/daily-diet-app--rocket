@@ -2,7 +2,7 @@ import styled, {css} from "styled-components/native";
 
 
 export const Container = styled.View`
-    flex: 1;
+    //flex: 1;
 `
 
 export const HeaderContainer = styled.View`
@@ -10,13 +10,13 @@ export const HeaderContainer = styled.View`
 `
 
 export const BodyContainer = styled.View`
-    flex: 1;
+    //flex: 1;
     min-height: 60px;
     margin-bottom: 20px;
 `
 
 export const ItemContainer = styled.View`
-    flex: 1;
+   // flex: 1;
     margin-bottom: 10px;
 `
 
