@@ -10,4 +10,3 @@ O aplicativo esta quase completo, esta com um bug no momento em que fazemos um e
 ![alt text](assets/print06.png)
 ![alt text](assets/print07.png)
 ![alt text](assets/print08.png)
-![alt text](assets/erro.png)
